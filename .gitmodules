@@ -4,3 +4,6 @@
 [submodule "lib/UISpec"]
 	path = lib/UISpec
 	url = https://github.com/moredip/UISpec
+[submodule "lib/SelectorKit"]
+	path = lib/SelectorKit
+	url = git@github.com:soutaro/SelectorKit.git
