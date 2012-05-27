@@ -4,6 +4,7 @@
 <dict>
 	<key>UIView</key>
 	<array>
+		<string>accessibilityIdentifier</string>
 		<string>accessibilityLabel</string>
 		<string>accessibilityFrame</string>
 		<string>tag</string>
@@ -13,7 +14,7 @@
 		<string>frame</string>
 		<string>isHidden</string>
 	</array>
-    <key>UIWindow</key>
+	<key>UIWindow</key>
 	<array>
 		<string>windowLevel</string>
 		<string>isKeyWindow</string>
