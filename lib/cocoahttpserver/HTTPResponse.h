@@ -1,5 +1,8 @@
 #import <Foundation/Foundation.h>
 
+#define HTTPResponse Franks_HTTPResponse
+#define HTTPFileResponse Franks_HTTPFileResponse
+#define HTTPDataResponse Franks_HTTPDataResponse
 
 @protocol HTTPResponse
 

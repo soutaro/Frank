@@ -2,6 +2,7 @@
 
 @class AsyncSocket;
 
+#define HTTPServer Franks_HTTPServer
 
 @interface HTTPServer : NSObject
 {
