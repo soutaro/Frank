@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import "HTTPServer.h"
 
 #if TARGET_OS_IPHONE
 // Note: You may need to add the CFNetwork Framework to your project
@@ -6,11 +7,12 @@
 #endif
 
 @class AsyncSocket;
-@class HTTPServer;
 @protocol HTTPResponse;
 
 
 #define HTTPConnectionDidDieNotification  @"HTTPConnectionDidDie"
+
+#define HTTPConnection Franks_HTTPConnection
 
 @interface HTTPConnection : NSObject
 {

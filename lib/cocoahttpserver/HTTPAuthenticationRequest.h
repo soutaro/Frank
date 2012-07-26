@@ -5,6 +5,7 @@
 #import <CFNetwork/CFNetwork.h>
 #endif
 
+#define HTTPAuthenticationRequest Franks_HTTPAuthenticationRequest
 
 @interface HTTPAuthenticationRequest : NSObject
 {

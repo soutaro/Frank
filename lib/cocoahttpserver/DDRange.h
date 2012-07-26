@@ -39,10 +39,10 @@ NS_INLINE BOOL DDEqualRanges(DDRange range1, DDRange range2) {
     return ((range1.location == range2.location) && (range1.length == range2.length));
 }
 
-FOUNDATION_EXPORT DDRange DDUnionRange(DDRange range1, DDRange range2);
-FOUNDATION_EXPORT DDRange DDIntersectionRange(DDRange range1, DDRange range2);
-FOUNDATION_EXPORT NSString *DDStringFromRange(DDRange range);
-FOUNDATION_EXPORT DDRange DDRangeFromString(NSString *aString);
+static DDRange DDUnionRange(DDRange range1, DDRange range2);
+static DDRange DDIntersectionRange(DDRange range1, DDRange range2);
+static NSString *DDStringFromRange(DDRange range);
+static DDRange DDRangeFromString(NSString *aString);
 
 @interface NSValue (NSValueDDRangeExtensions)
 
